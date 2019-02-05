@@ -1,0 +1,17 @@
+title: LeaseOS
+description: A Lease-Based, Utilitarian Resource Management Mechanism for Mobile Devices
+logo_name: LeaseOS
+show_downloads: true
+theme: jekyll-theme-cayman
+github:
+  repository_url: https://github.com/OrderLab
+  project_tagline: A Lease-Based, Utilitarian Resource Management Mechanism for Mobile Devices
+  owner_name: Prof. Ryan Huang
+  owner_url: https://cs.jhu.edu/~huang
+  img_url: #
+  show_maintainer: false
+  repository_name: LeaseOS
+header_pages: 
+  - start.md
+  - docs.md
+  - about.md
