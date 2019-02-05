@@ -15,3 +15,5 @@ header_pages:
   - start.md
   - docs.md
   - about.md
+baseurl: "/LeaseOS" # the subpath of your site, e.g. /blog
+url: "https://orderlab.io" # the base hostname & protocol for your site
