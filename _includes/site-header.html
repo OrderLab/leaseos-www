@@ -4,7 +4,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <a href="{{ "/" | relative_url }}"><span class="site-title" style="padding-right:5pt">{{ site.logo_name}}</span><img class="logo-image" src="/assets/logo.png" alt="LeaseOS logo"></a>
+    <a href="{{ "/" | relative_url }}"><span class="site-title" style="padding-right:5pt">{{ site.logo_name}}</span><img class="logo-image" src="{{ "/assets/logo.png" | relative_url }}" alt="LeaseOS logo"></a>
 
     {% if page_paths %}
       <nav class="site-nav">
