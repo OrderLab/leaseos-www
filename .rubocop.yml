@@ -1,6 +1,6 @@
 AllCops:
   Exclude:
     - _site/**/*
-
+require: rubocop-performance
 Metrics/LineLength:
   Enabled: false
