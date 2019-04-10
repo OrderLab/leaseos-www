@@ -7,5 +7,4 @@
 #
 layout: home
 ---
-
-Stay tuned for more information!
+LeaseOS is a lease-based, utilitarian resource management mechanism built on top of [android-7.1.2](https://source.android.com/). For more information on what LeaseOS is and what it can do, see our [ASPLOS 2019](https://gongxini.github.io/paper.pdf) paper.
