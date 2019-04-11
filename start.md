@@ -8,10 +8,3 @@ permalink: /start.html
 * [Requirements]({{site.baseurl}}/requirements)
 * [Downloading the Source]({{site.baseurl}}/downloading)
 * [Running Builds]({{site.baseurl}}/running)
-
-
-
-
-
-
-
