@@ -4,16 +4,17 @@ logo_name: LeaseOS
 show_downloads: true
 theme: jekyll-theme-cayman
 github:
-  repository_url: https://github.com/OrderLab
+  repository_url: https://github.com/OrderLab/leaseos_frameworks_base
   project_tagline: A Lease-Based, Utilitarian Resource Management Mechanism for Mobile Devices
   owner_name: Prof. Ryan Huang
   owner_url: https://cs.jhu.edu/~huang
-  img_url: #
+  img_url: https://github.com/OrderLab/leaseos_local_manifests
   show_maintainer: false
   repository_name: LeaseOS
 header_pages: 
   - start.md
   - docs.md
+  - pubs.md
   - about.md
 baseurl: "/LeaseOS" # the subpath of your site, e.g. /blog
 url: "https://orderlab.io" # the base hostname & protocol for your site

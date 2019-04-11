@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Quick-Start Guide
 tagline: A few more words about this theme
 permalink: /start.html
