@@ -2,6 +2,7 @@
 layout: post
 title: Downloading
 tagline: A few more words about this theme
+permalink: /downloading.html
 ---
 # Downloading the Source
 The LeaseOS source tree is located in a Git repository hosted by OrderLab.
