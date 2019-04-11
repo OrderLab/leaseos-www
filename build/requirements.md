@@ -2,6 +2,7 @@
 layout: post
 title: Requirements
 tagline: A few more words about this theme
+permalink: /build/requirements.html
 ---
 # Requirements
 Before you download and build the LeaseOS source, ensure your system meets the following
