@@ -6,8 +6,8 @@ permalink: /start.html
 ---
 # Guide for building LeaseOS
 * [Requirements]({{site.baseurl}}/build/requirements.html)
-* [Downloading the Source]({{site.baseurl}}/build/downloading)
-* [Running Builds]({{site.baseurl}}/build/running)
+* [Downloading the Source]({{site.baseurl}}/build/downloading.html)
+* [Running Builds]({{site.baseurl}}/build/running.html)
 
 
 
