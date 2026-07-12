@@ -1,0 +1,51 @@
+name: Build LeaseOS website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: leaseos-build
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout LeaseOS website
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build LeaseOS website
+        run: npm run build
+
+      - name: Save prebuilt website
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
+
+      - name: Trigger orderlab.io deployment
+        env:
+          GH_TOKEN: ${{ secrets.ORDERLAB_DISPATCH_TOKEN }}
+        run: |
+          gh api \
+            --method POST \
+            repos/orderlab/orderlab.github.io/dispatches \
+            -f event_type=leaseos-updated
